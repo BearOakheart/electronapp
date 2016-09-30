@@ -19,7 +19,7 @@ function createWindow() {
   win = new BrowserWindow({width:800, height:600});
 
   win.loadURL(`file://${__dirname}/app/index.html`);
-  win.openDevTools();
+  //win.openDevTools();
 
   win.on('closed', () => {
     win = null;
